@@ -11,7 +11,8 @@ import SwiftUI
 struct food_rotationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            CategoryHome()
         }
     }
 }

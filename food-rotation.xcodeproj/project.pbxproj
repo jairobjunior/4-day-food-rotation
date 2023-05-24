@@ -14,6 +14,9 @@
 		5327229E2A1DCD6C00064586 /* food_rotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327229D2A1DCD6C00064586 /* food_rotationTests.swift */; };
 		532722A82A1DCD6C00064586 /* food_rotationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532722A72A1DCD6C00064586 /* food_rotationUITests.swift */; };
 		532722AA2A1DCD6C00064586 /* food_rotationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532722A92A1DCD6C00064586 /* food_rotationUITestsLaunchTests.swift */; };
+		532722B72A1DD3EC00064586 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532722B62A1DD3EC00064586 /* CategoryHome.swift */; };
+		532722B92A1DD6AC00064586 /* FoodItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532722B82A1DD6AC00064586 /* FoodItemView.swift */; };
+		532722BB2A1DDE0800064586 /* FoodRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532722BA2A1DDE0800064586 /* FoodRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		532722A32A1DCD6C00064586 /* food-rotationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "food-rotationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		532722A72A1DCD6C00064586 /* food_rotationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_rotationUITests.swift; sourceTree = "<group>"; };
 		532722A92A1DCD6C00064586 /* food_rotationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food_rotationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		532722B62A1DD3EC00064586 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		532722B82A1DD6AC00064586 /* FoodItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemView.swift; sourceTree = "<group>"; };
+		532722BA2A1DDE0800064586 /* FoodRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 				5327228E2A1DCD6A00064586 /* ContentView.swift */,
 				532722902A1DCD6C00064586 /* Assets.xcassets */,
 				532722922A1DCD6C00064586 /* Preview Content */,
+				532722B62A1DD3EC00064586 /* CategoryHome.swift */,
+				532722B82A1DD6AC00064586 /* FoodItemView.swift */,
+				532722BA2A1DDE0800064586 /* FoodRowView.swift */,
 			);
 			path = "food-rotation";
 			sourceTree = "<group>";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5327228F2A1DCD6A00064586 /* ContentView.swift in Sources */,
+				532722B72A1DD3EC00064586 /* CategoryHome.swift in Sources */,
 				5327228D2A1DCD6A00064586 /* food_rotationApp.swift in Sources */,
+				532722BB2A1DDE0800064586 /* FoodRowView.swift in Sources */,
+				532722B92A1DD6AC00064586 /* FoodItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +426,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"food-rotation/Preview Content\"";
+				DEVELOPMENT_TEAM = BG45MK8ZGA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jolee Schedule";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,6 +446,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jolee.food-rotation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,11 +458,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"food-rotation/Preview Content\"";
+				DEVELOPMENT_TEAM = BG45MK8ZGA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Jolee Schedule";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -459,6 +478,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jolee.food-rotation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

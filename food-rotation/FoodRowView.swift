@@ -10,10 +10,10 @@ import SwiftUI
 struct FoodRowView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Grains / Starches")
-                .font(.title)
-                .padding(.leading, 15)
-                .padding(.top, 5)
+//            Text("Grains / Starches")
+//                .font(.title)
+//                .padding(.leading, 15)
+//                .padding(.top, 5)
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(alignment: .top, spacing: 10) {

@@ -19,16 +19,16 @@ struct FoodRowView: View {
                 HStack(alignment: .top, spacing: 10) {
 //                    ForEach(items) { landmark in
 //                        CategoryItem(landmark: landmark)
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                    FoodItemView()
-                        .padding(.trailing, 15)
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                    FoodItemView()
+//                        .padding(.trailing, 15)
 //                    }
                 }
                 .padding()

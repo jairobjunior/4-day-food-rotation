@@ -45,7 +45,10 @@ private struct CategoryScreenInternal<ViewModel: FoodCategoryViewModelable>: Vie
                     Section(header: textHeader(text: category.data.name, color: category.color)
                     ) {
                         ForEach(category.data.foodItems) { foodItem in
-                            FoodItemView(widgetColor: category.color.opacity(0.7))
+                            FoodItemView(
+                                widgetColor: category.color.opacity(0.7),
+                                foodItem: foodItem
+                            )
                         }
                     }
                     .padding(.bottom, 16)
